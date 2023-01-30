@@ -1,0 +1,75 @@
+.buyButton {
+display: none;
+box-sizing: border-box;
+width: 202px;
+height: 48px;
+background: #2A3342;
+border: 1px solid rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+color: #F6F5FB;
+position: relative;
+margin-left: 30px;
+}
+
+.ModalButton{
+    box-sizing: border-box;
+    width: 202px;
+    height: 48px;
+    background: #2A3342;
+    background-color: #2A3342;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    color: #F6F5FB;
+    position: relative;
+    margin: 30px;
+}
+
+#myModal{
+    display: none;
+    position: fixed;
+    top: 30%;
+    left: 35%;
+    height: 400px;
+    width: 400px;
+    background-color:rgba(0, 0, 0, 0.3);
+    
+    background: white;
+border-radius: 15px;
+    z-index: 999;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;   
+}
+
+
+
+.modal-open:not(.meuModal) {
+    opacity: 0.5;
+}
+
+.modalItems{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 50px;    
+}
+
+#btnCloseModal{
+    /*margin-left: 300px;
+    margin-top: none;
+    margin-bottom: none;*/
+    position: relative;
+left: 55%;
+right: -77.5%;
+top: 0%;
+bottom: 0%;
+    
+}
+
+article:hover button{
+    display: block;
+}
+
+#btnCloseModal:hover{
+    cursor: pointer;;
+}
